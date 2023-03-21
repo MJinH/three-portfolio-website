@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+
+#root, canvas {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.hi {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.btn {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 2;
+}
+
+.btn button {
+  font-size: 2rem;
+  cursor: pointer !important;
+}
+
+.sections {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.sections section {
+  box-sizing: border-box;
+  font-size: 10vmin;
+  padding: 5rem;
+  height: 100vh;
+}
+
+.sections section:nth-child(odd) {
+  text-align: right;
+}
+
+.enter-btn {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key-control {
+  width: 8rem;
+  height: 5rem;
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  left: 5rem;
+}
+
+.key-top, .key-bottom {
+  height: 50%;
+  text-align: center;
+  display: flex;
+}
+
+.key-top {
+  justify-content: center;
+}
+
+.key-bottom div {
+  flex: 1;
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key-top div {
+  width: 33%;
+  border: 1px solid grey;
+  background-color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-back {
+  margin-top: 2rem;
+}
+
+.gallery-back button {
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.canvas-loader {
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: mulShdSpin 1.1s infinite ease;
+  transform: translateZ(0);
+  background-color: #2F4F4F;
+}
