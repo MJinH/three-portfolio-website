@@ -1,2 +1,7 @@
+![threes-1 (1)](https://github.com/MJinH/three-portfolio-website/assets/97130553/45e50556-c90a-4bda-a6dc-b3bbfbdcc8c1)
 
-![threes-0 (1)](https://github.com/MJinH/three-portfolio-website/assets/97130553/7df939ee-8d69-431a-bb5c-66d5b715f3a5)
+
+
+
+
+![threes-2](https://github.com/MJinH/three-portfolio-website/assets/97130553/8bc303f2-28d6-4255-882b-3f5a6420dbfc)
